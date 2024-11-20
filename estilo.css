@@ -1,0 +1,103 @@
+.botoes{
+    padding: 20px;
+    background-color: cornflowerblue;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-top: 20px;
+    width: 120px;
+   
+}
+
+.botoes:hover{
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+}
+
+#conteudo{
+    width: 98%;
+    margin: auto;
+    border:  1px solid gray;
+    margin-top: 30px;
+    min-height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.a {
+    border-radius: 2px solid rgb(69, 69, 88);
+}
+.cartoes {
+    max-width: 300px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    padding: 30px;
+    margin: 20px;
+    transition: all 0.5s;
+
+}
+.cartoes:hover {
+    background-color: rgb(95, 155, 155);
+    transform: scale(1.2);
+    cursor: pointer;
+}
+#btnFechar {
+    background-color: blue;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+
+}
+#btnFechar:hover {
+    background-color: lightskyblue;
+    cursor: pointer;
+}
+.tela_escura {
+    background-color: rgba(0,0,0,0.5);
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.formulario {
+    background-color: rgb(95, 155, 155);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+}
+.botoes {
+    padding: 5px;
+    border-radius: 10px;
+    margin: 0px;
+    margin-right: 15px;
+    color: white;
+}
+.botoes:hover {
+    opacity: 0.6;
+}
+
+#btnDeletar {
+    background-color: red;
+}
+#btnSalvarAlteracoes {
+    background-color: blue;
+}
+#btnReabrir {
+    background-color: green;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+
+}
+#btnReabrir:hover {
+    background-color: lightgreen;
+    cursor: pointer;
+}
